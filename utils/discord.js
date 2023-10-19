@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 export const sendPfpUrl = async (req, res, next) => {
   try {
     const { userId } = req.params;
