@@ -15,6 +15,7 @@ export const sendPfpUrl = async (req, res, next) => {
       returnObj,
     });
   } catch (error) {
+    console.log(error)
     res.send({
       status: 500,
       message: "Some error occurred",
